@@ -32,6 +32,11 @@ By default, the server restricts access to your home directory. You can modify t
 ALLOWED_PATHS = [str(Path.home())]  # Modify this to add more paths
 ```
 
+- Access is limited to a configured root directory
+- No access to system paths
+- User must explicitly grant permissions
+
+
 ## Server Versions
 
 **server.py** - Pure MCP SDK implementation (currently active)
