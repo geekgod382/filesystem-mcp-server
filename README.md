@@ -144,3 +144,5 @@ Check that the server is running with stdio transport and that your client is pr
 - [MCP Documentation](https://modelcontextprotocol.io/)
 - [MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk)
 - [FastMCP Documentation](https://modelcontextprotocol.github.io/python-sdk/)
+
+[![MCP Badge](https://lobehub.com/badge/mcp/geekgod382-filesystem-mcp-server)](https://lobehub.com/mcp/geekgod382-filesystem-mcp-server)
