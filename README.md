@@ -107,6 +107,13 @@ Get detailed information about myfile.pdf
 
 ```
 filesystem-mcp-server/
+└── src/
+    ├── __init__.py
+    ├── config.py      ← ALLOWED_PATHS + is_path_allowed()
+    ├── tools.py       ← all 10 tool implementations
+    ├── tool_schemas.py ← the Tool(...) schema definitions for list_tools()
+    ├── resources.py   ← list_resources() + read_resource()
+    └── prompts.py     ← list_prompts() + get_prompt()
 ├── server.py           # Main MCP server implementation
 ├── requirements.txt    # Python dependencies
 ├── test_server        # Test file
